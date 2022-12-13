@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "776299295968",
+    "firebase_url": "https://meus-medicamentos-7f869-default-rtdb.firebaseio.com",
+    "project_id": "meus-medicamentos-7f869",
+    "storage_bucket": "meus-medicamentos-7f869.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776299295968:android:e5fa7c07eb02e67fd00c85",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776299295968-h4rhu0recq17pa5qj7dp7vuo9iaj6dpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACdtTLAQSQrI6R2ErV7fzepkNjyH0o9Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776299295968-h4rhu0recq17pa5qj7dp7vuo9iaj6dpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Meus Medicamentos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings do app -->
+    <string name="remedio_cadastro">Nome do medicamento</string>
+    <string name="horario_cadastro">Horário do medicamento</string>
+    <string name="frequencia_cadastro">Frequencia do medicamento</string>
+    <string name="hora_cadastro">--</string>
+    <string name="agenda_cadastro">Agendar alarmes</string>
+    <string name="data_cadastro">Data final</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="bt_salvar">Salvar</string>
+    <string name="horaio_list">Horario:</string>
+    <string name="hora_list">00:00</string>
+    <string name="id_list">ID</string>
+    <string name="lembrete_list">Lembrete progamado até:</string>
+    <string name="data_list">00/00/0000</string>
+
+</resources>

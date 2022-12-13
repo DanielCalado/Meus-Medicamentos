@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opcoes">
+        <item>Click para selecionar o horarioSelecionado</item>
+        <item>Uma vez por dia</item>
+        <item>12 horas</item>
+        <item>8 horas</item>
+        <item>6 horas</item>
+        <item>4 horas</item>
+        <item>Opção Teste</item>
+    </string-array>
+
+</resources>
