@@ -13,9 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.myapplication.R;
-import com.example.myapplication.databinding.FragmentListaAlarmesBinding;
 import com.example.myapplication.databinding.FragmentLoginBinding;
-import com.example.myapplication.model.Usuario;
+import com.example.myapplication.model.entidades.Usuario;
 
 
 public class LoginFragment extends Fragment {

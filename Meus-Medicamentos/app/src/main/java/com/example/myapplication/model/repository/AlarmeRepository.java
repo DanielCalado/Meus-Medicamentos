@@ -1,8 +1,8 @@
-package com.example.myapplication.firebase;
+package com.example.myapplication.model.repository;
 
 import androidx.annotation.NonNull;
 
-import com.example.myapplication.model.Alarme;
+import com.example.myapplication.model.entidades.Alarme;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -11,12 +11,16 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class Banco {
+public class AlarmeRepository {
+    private static AlarmeRepository alarmeRepository;
     FirebaseDatabase database;
     DatabaseReference reference;
 
-    public Banco() {
-
+    public synchronized static AlarmeRepository getInstance(){
+        if(alarmeRepository == null){
+            alarmeRepository = new AlarmeRepository();
+        }
+        return alarmeRepository;
     }
 
     public void salvar(Alarme a) {
@@ -49,5 +53,4 @@ public class Banco {
 
         return listados;
     }
-
 }

@@ -1,4 +1,4 @@
-package com.example.myapplication.model;
+package com.example.myapplication.model.entidades;
 
 public class Alarme {
     private String id;

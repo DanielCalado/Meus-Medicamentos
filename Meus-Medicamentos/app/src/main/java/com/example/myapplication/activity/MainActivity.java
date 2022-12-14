@@ -3,21 +3,17 @@ package com.example.myapplication.activity;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.View;
 
 import com.example.myapplication.R;
 import com.example.myapplication.databinding.ActivityMainBinding;
-import com.example.myapplication.fragment.FragmentListaAlarmes;
 import com.example.myapplication.fragment.LoginFragment;
-import com.example.myapplication.model.Alarme;
+import com.example.myapplication.model.entidades.Alarme;
 import com.example.myapplication.recyclerView.RecyclerViewAdapter;
 
 import java.util.ArrayList;

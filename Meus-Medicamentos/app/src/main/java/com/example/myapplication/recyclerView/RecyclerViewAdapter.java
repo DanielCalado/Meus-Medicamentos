@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.model.Alarme;
+import com.example.myapplication.model.entidades.Alarme;
 
 import java.util.ArrayList;
 

@@ -22,13 +22,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
-import android.widget.Toast;
 
 import com.example.myapplication.R;
 import com.example.myapplication.brodcast.AlarmerReceiver;
 import com.example.myapplication.databinding.FragmentCadastroRemedioBinding;
-import com.example.myapplication.firebase.Banco;
-import com.example.myapplication.model.Alarme;
+import com.example.myapplication.model.entidades.Alarme;
+import com.example.myapplication.model.repository.AlarmeRepository;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -250,12 +249,11 @@ public class FragmentCadastroRemedio extends Fragment {
 
     private void salvarNoBanco() {
         Alarme a = new Alarme();
-        Banco banco = new Banco();
         a.setNomeMedicamento(binding.nomeMedicamento.getText().toString());
         a.setDataFinal(binding.dataFinal.getText().toString());
         a.setFrequancia(frequancia);
         a.setHorarioSelecionado(binding.horaRemedio.getText().toString());
-        banco.salvar(a);
+        AlarmeRepository.getInstance().salvar(a);
 
     }
 
