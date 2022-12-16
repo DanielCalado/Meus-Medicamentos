@@ -1,6 +1,10 @@
 # Meus-Medicamentos
 projeto destinado a emitir e organizar alarmes para alertar a hora certa de tomar seus medicamentos
 
+## Alunos
+* [@DanielCalado](https://github.com/DanielCalado) como Daniel da Silva Calado
+* [@fabusilva](https://github.com/fabusilva) como Fabio Silva
+
 ## Aplicativos Concorentes
 |Aplicativo|Pontos fortes|Pontos fracos|
 |----------|-------------|-------------|
@@ -30,7 +34,3 @@ projeto destinado a emitir e organizar alarmes para alertar a hora certa de toma
 
 ## Canvas
 ![Canvas](https://github.com/DanielCalado/Meus-Medicamentos/blob/main/Canvas.png)
-
-## Colaboradores
-* [@DanielCalado](https://github.com/DanielCalado) como Daniel da Silva Calado
-* [@fabusilva](https://github.com/fabusilva) como Fabio Silva
